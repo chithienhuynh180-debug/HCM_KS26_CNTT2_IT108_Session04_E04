@@ -1,0 +1,30 @@
+﻿Bài 4 : Quản lý đường dẫn trong hệ thống tệp 
+Phần 1: Phân tích & Đề xuất
+
+
+Đường dẫn
+	Tuyệt đối
+	Tương đối
+	Tính di động (Portability) 
+	Sẽ báo lỗi khi chạy trên máy khác hoặc chuyển sang ổ đĩa khác 
+
+
+Gắn cứng (hardcode) với cấu trúc thư mục và tên tài khoản trên máy cá nhân (C:\Users\An) 
+	Dễ dàng chia sẻ qua GitHub 
+
+
+
+
+Chạy được ỡ mọi nơi
+	Độ dài câu lệnh
+	Phải khai báo toàn bộ cây thư mục từ ổ đĩa gốc đến file đích, tốn ký tự 
+	Chỉ cần chỉ định vị trí di chuyển từ file hiện tại đến file đích, ngắn hơn rất nhiều và dễ đọc hơn 
+	Tính an toàn 
+	Làm lộ thông tin cấu trúc máy tính cá nhân và username khi chia sẻ mã nguồn công khai 
+	Che giấu toàn bộ cấu trúc ổ đĩa và thông tin cá nhân 
+	
+
+Phần 2: Lựa chọn
+* Giải pháp cho An là nên chọn cách 2.
+* Dấu . là đại diện cho folder hiện tại 
+* Dấu .. là lùi về một folder cha
