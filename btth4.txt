@@ -1,0 +1,18 @@
+﻿phần 1
+
+task manager thấy %RAM gần 100%, %CPU thấp. ram đầy nên win dùng swap file trên ssd, ssd chậm hơn ram nên máy lag.
+
+ram như bàn làm việc, chứa cái đang dùng, nhanh nhưng nhỏ. storage như ngăn tủ, chứa lâu dài, rộng nhưng chậm hơn.
+
+phần 2
+
+D:\
+  python-dau-tay
+    bai-giang
+      session-01
+    bai-tap
+      session-01
+    du-an
+      session-01
+    tai-lieu
+      session-01
